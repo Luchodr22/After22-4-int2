@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1era clase</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Titulo Principal</h1>
+        <h2>Titulo Secundario</h2>
+        <nav>
+
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <p><strong>dolor sit amet, </strong> <em>consectetur </em>adipisicing elit. <s>xAccusamus </s> illo quisquam nostrum
+                fugiat unde eos accusantium minus voluptas sit adipisci. Harum consequuntur voluptatem,
+            </p>
+        </section>
+        <section>
+            <h3>Listas ordenadas y desordenadas</h3>
+            
+            <h4>ordenada</h4>
+            
+            <ol>
+                <li>enero</li>
+                <li>febrero</li>
+                <li>marzo</li>
+            </ol>
+            
+            <h4>desordenada</h4>
+            
+            <ul>
+                <li>fideos</li>
+                <li>asado</li>
+                <li>patys</li>
+            </ul>
+        </section>
+
+        <h4>Lista de Definicion</h4>
+        <dl> <!--definition list/lista de definicion-->
+            <dt>HTML</dt> <!--definition title?/titulo de definicion-->
+            <dd>Lenguaje de marcado utilizado para estructurar contenido en la web</dd> <!--definition date?/datos de definicion-->
+            <dd>No es lenguaje de programacion</dd>
+            <dt>CSS</dt>
+            <dd>Para crear estilos a cada etiqueta</dd>
+        </dl>
+
+        <section>
+            <h2>Formulario HTML</h2>
+            <div class="formulario">
+                <form action="URL_de_destino" method="POST">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required minlength="3"><br>
+                    <input type="email" name="email" id="email" placeholder="Escribe tu email"> <br>
+                    <input type="password" name="psw" id="psw"><br>
+                    <textarea name="mensaje" id="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+
+            </div>        
+        </section>
+        <section>
+            <h3>Enlaces/Links</h3>
+            <h4>Enlace externo</h4>
+            <a href="https://www.google.com/">Google AR</a>
+
+            <h4>Enlace mail</h4>
+            <a href="correo@gmail.com">Enviar Correo</a>
+
+            <h4>Descarga</h4>
+            <a href="documento.pdf" download>Descargar imagen</a>
+        </section>
+
+        <section>
+           
+            <h3>Elementos en bloque / en linea</h3>
+            <h4>Bloque / block</h4>
+            <div style="border: 1px solid red">div1</div>
+            <div style="border: 1px solid blue">div2</div>
+            <div style="border: 1px solid green">div3</div>
+            <h4>En linea</h4>
+            <span style="border: 1px solid red">span1</span>
+            <span style="border: 1px solid blue">span2</span>
+            <span style="border: 1px solid green">span3</span>
+    
+        </section>
+    
+        <section>
+            <h2>IFrame</h2>
+            <h3>Youtube</h3>
+            <h4>Forma 1</h4>
+            <a href="https://music.youtube.com/watch?v=8XOB7w4YoB8&si=SsesWTncnko3k664">Video Musica</a>
+            <h4>Forma 2</h4>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WvMClfhShJE?si=bRvSVOquDQ_xSG8X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h3>Maps</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4638.655325288183!2d-58.639519118152656!3d-34.704558553552474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc6cdd23d9c43%3A0x20e22c458dcd04d1!2sHospital%20Dr.%20Ren%C3%A9%20Favaloro!5e0!3m2!1ses!2sar!4v1746415802225!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    
+        <section>
+            <h4>Tablas</h4>
+
+            <table>
+                <tr><!--table road/ define una fila-->
+                    <th>Nombre</th> <!--th/defina encabezados-->
+                    <th>Edad</th>
+                    <th>Ciudad</th>
+                </tr>
+                <tr>
+                    <td>Ana</td><!--define los datos de la tabla/td-->
+                    <td>23</td>
+                    <td>paris</td>
+                </tr>
+                <tr>
+                    <td>raul</td><!--define los datos de la tabla/td-->
+                    <td>27</td>
+                    <td>rosario</td>
+                </tr>
+            </table>
+
+            <hr> <!--sirve como separador de secciones el (hr)-->
+
+            <table>
+                <tr>
+                    <th rowspan="2">Nombre</th>
+                    <th colspan="2">Contacto</th>
+                </tr>
+                <tr>
+                    <td>Telefono</td>
+                    <td>Email</td>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>12345678</td>
+                    <td>ana@jaja.com</td>
+                </tr>
+            </table>
+        </section>
+    
+    </main>
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Producto</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <footer>
+        <strong>lucianorodriguez220803@gmail.com</strong>
+    </footer>
+</body>
+</html>
